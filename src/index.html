@@ -4,9 +4,169 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <h1 class="text-3xl">Hola</h1>
+    <header>
+        <nav class=" wrapper h-20  flex items-center
+         justify-between">
+            <a href="" class="w-1/3 max-w-[140px]">
+                <img src="./images/logo.svg" alt="" class="w-full">
+            </a>
+            <input type="checkbox" id="menu" class="peer hidden
+            ">
+            <label for="menu" class="bg-open-menu w-6 h-5 z-50 bg-cover bg-center cursor-pointer
+            peer-checked:bg-close-menu transition-all md:hidden"
+             >
+            </label>
+
+            <div class="fixed inset-0 bg-gradient-to-b
+             from-white/70 to-black/70 translate-x-full
+             peer-checked:translate-x-0
+             transition-transform md:static md:translate-x-0 md:bg-none">
+                
+                <ul class= "absolute inset-x-0 top-24 p-12 bg-white w-[90%]
+                 max-auto rounded-md h-max text-center grid gap-6 font-bold 
+                 text-dark-blue shadow-2x1 md:w-max md:bg-transparent md:p-8
+                 md:grid-flow-col md:static">
+                    <li>
+                        <a href="#">Pricing</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Product</a>
+                    </li> 
+
+                    <li>
+                        <a href="#">About Us</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Carees</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Community</a>
+                    </li>
+                </ul>
+            </div>
+            <a href="#" class="button shadow-sm
+            shadow-brigth-red/30 hidden py-3lg:block
+            lg:block">Get Started</a>
+        </nav>
+        <section class="wrapper grid gap-8 
+        justify-items-center items-center pb-12
+         md:grid-cols-2 md:py-24">
+
+            <img src="./images/illustration-intro.svg" 
+            class="w-full max-w-lg md:order-1" alt=
+            "no eta eta imagen!">
+            
+            <article class="text-center space-y-6 
+            md:text-left md:space-y-8">
+               
+                 <h1 class="text-4xl font-bold
+                 text-Very Dark Blue md:text-5xl">
+                    Bring everyone Logether to build 
+                    better products.
+                 </h1>
+                 <p class="text-Dark Grayish Blue">
+                    Manage makes it simple for software teams to 
+                    plan day-to-day taks while keeping the larger 
+                    team goals in view.
+
+                 </p>
+                 <a href="#" class="button mx-auto 
+                 shadow-xl shadow-brigth-red/30
+                  md:mx-0">Get Started</a>
+            </article>
+        </section>
+    </header>
+    <main>
+        <section class="wrapper text-center py-24 grid
+        gap-12 md:grid-cols-2 md:text-left">
+            <article>
+                <h2 class="text-3xl font-bold
+                text-Very Dark Blue mb-6">
+                    What’s different about Manage?
+
+                </h2>
+                <p class="text-Dark Grayish Blue">
+                    Manage provides all the functionality
+                    your team needs, without the complexity.
+                    Our software is tailor-made for modern
+                    digital product teams.
+                </p>
+            </article>
+            <div class="grid gap-12">
+                <article class="rounded-l-full font-bold flex
+                items-center">
+                    <p>
+                        <span class="bg-brigth-red text-white px-6 rounded-full py-2">
+                            01
+                        </span>
+                        <span>
+                            Track company-wide progress
+                        </span>
+
+                    </p>
+                    <p>
+                        See how your day-to-day tasks fit
+                        into the wider vision. Go from
+                        tracking progress at the milestone
+                        level all the way done to the smallest
+                        of details. Never lose sight of the
+                        bigger picture again.
+                    </p>
+                </article>
+            </div>
+            <div>
+                <article>
+                    <p>
+                        <span>
+                            02
+                        </span>
+                        <span>
+                            Advanced built-in reports
+                        </span>
+
+                    </p>
+                    <p>
+                        Set internal delivery estimates
+                        and track progress toward company goals.
+                        Our customisable dashboard helps you build
+                        out the reports you need to keep key 
+                        stakeholders informed.
+                    </p>
+                </article>
+            </div>
+            <div>
+                <article>
+                    <p>
+                        <span>
+                            03
+                        </span>
+                        <span>
+                            Everything you need in one place
+                        </span>
+
+                    </p>
+                    <p>
+                        Stop jumping from one service to another
+                        to communicate, store files, track tasks
+                        and share documents. Manage offers an
+                        all-in-one team productivity solution.
+                    </p>
+                </article>
+            </div>
+
+        </section>
+    </main>
+   
+  
 </body>
+
 </html>
